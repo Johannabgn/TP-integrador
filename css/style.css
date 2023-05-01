@@ -7,18 +7,12 @@
 #barra
 {
     text-align: center;
-    background-color: #343a40 !important;
+    background-color: #353a40 !important;
 }
 
-#Boton-Verde
+#boton-comprar
 {
     color: #168d32;
-}
-
-#Tarjetas
-{
-    width: 80%;
-    margin: auto;
 }
 
 #carouselExampleCaptions
@@ -26,38 +20,52 @@
     width: 100%;
 }
 
-#TextodeHonolulu
+#boton-ticket
 {
-    background-color: #212529;
+   background-color: #28a744;
 }
 
-#Formulario
+#oradores
+{
+    padding-top: 10px;
+}
+
+#tarjetas
+{
+    width: 80%;
+    margin: auto;
+}
+
+#react
+{
+    color: white !important;
+}
+
+#texto
+{
+    padding-top: 10px;
+    background-color: #353a40;
+    padding-right: 20px;
+}
+
+#formulario
 {
     width: 50%;
     margin: auto;
 }
 
-#Boton
+#boton-enviar
 {
-    background-color: #76ce53 !important;
+    background-color: #96c93e !important;
     color: white;
 }
 
-#Piedepagina
+#footer
 {
-    background-color: #212f4b !important;
+    background-color: #1d506d !important;
     color: white;
-    font-size: 18px; 
     padding-top: 25px;
     height: 100px;
     text-align:center;   
 }
 
-#span
-{
-    color: white !important;
-}
-#span1
-{
-    color: white !important;
-}

@@ -30,7 +30,7 @@
                         <a class="nav-link">Conviértete en Orador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" id="Boton-Verde">Comprar tickets</a>
+                        <a class="nav-link active" aria-current="page" href="#" id="boton-comprar">Comprar tickets</a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
                         <div class="col-lg-5 offset-lg-8">
                             <h3>Conf Bs As</h3>
                             <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                            <p><a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#" >Comprar tickets</a></p>
+                            <p><a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#" id="boton-ticket">Comprar tickets</a></p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                             <div class="col-lg-5 offset-lg-8">
                                 <h3>Conf Bs As</h3>
                                 <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                                <p><a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#" >Comprar tickets</a></p>
+                                <p><a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#" id="boton-ticket">Comprar tickets</a></p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                             <div class="col-lg-5 offset-lg-8">
                                 <h3>Conf Bs As</h3>
                                 <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                                <p><a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#" >Comprar tickets</a></p>
+                                <p><a class="btn btn-outline-light mb-3" href="#">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="#" id="boton-ticket">Comprar tickets</a></p>
                             </div>
                         </div>
                     </div>
@@ -90,17 +90,17 @@
           <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <figure class="text-center">
+    <figure class="text-center" id="oradores">
         <p>CONOCE A LOS</p>
         <h2>ORADORES</h2>
     </figure>
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="Tarjetas">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="tarjetas">
         <div class="col">
             <div class="card">
                 <img src="img/steve.jpg" class="card-img-top" alt="Steve">
                 <div class="card-body">
                     <span class="badge text-bg-warning">JavaScript</span>
-                    <span class="badge text-bg-info" id="span1">React</span>
+                    <span class="badge text-bg-info" id="react">React</span>
                     <h5 class="card-title">Steve Jobs</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt explicabo, culpa accusamus voluptatem quo repellendus magnam. Debitis necessitatibus veritatis nisi, ipsum sint at sapiente sequi quis, sit, perspiciatis nulla est.</p>
                 </div>
@@ -111,7 +111,7 @@
                 <img src="img/bill.jpg" class="card-img-top" alt="Bill">
                 <div class="card-body">
                     <span class="badge text-bg-warning">JavaScript</span>
-                    <span class="badge text-bg-info" id="span">React</span>
+                    <span class="badge text-bg-info" id="react">React</span>
                     <h5 class="card-title">Bill Gates</h5>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae minus aut sed consectetur, necessitatibus alias corporis possimus nisi exercitationem doloribus saepe, sunt deleniti obcaecati. Esse optio minima nihil officia libero?</p>
                 </div>
@@ -131,10 +131,10 @@
     </div>
     <br>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-6">
             <img src="img/honolulu.jpg" class="img-fluid" alt="honolulu">
         </div> 
-        <div class="col-md-6 link-light" id="TextodeHonolulu">
+        <div class="col-6 link-light" id="texto">
             <br>
             <h2>Bs As - Octubre</h2>
             <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las pricipales ciudades estadounidenses. Aunque el nombre de Hnolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
@@ -147,10 +147,9 @@
     <figure class="text-center">
         <p>CONVIERTETE EN UN</p>
         <h2>ORADOR</h2>
-        <br>
         <p>Anotate como orador para una <u>charla ignite</u>. Cuentanos de que quieres hablar!</p>
     </figure>
-    <div class="row" id="Formulario">
+    <div class="row" id="formulario">
         <div class="col-md-6 mb-3">
             <input type="text" class="form-control" id="NomInput1" placeholder="Nombre">
         </div>
@@ -164,12 +163,11 @@
             </div>
         </div>
         <div class="d-grid gap-2 col-md-12 mx-auto">
-            <button class="btn" type="button" id="Boton">Enviar</button>
+            <button class="btn" type="button" id="boton-enviar">Enviar</button>
         </div>
     </div>
     <br>
-    <div class="row justify-content-center" id="Piedepagina">
-        
+    <div class="row justify-content-center" id="footer">  
         <div class="col-md-1 mb-3">
             <p>Preguntas frecuentes</p>
         </div>
